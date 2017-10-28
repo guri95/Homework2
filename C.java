@@ -44,6 +44,7 @@ public class C extends Canvas {
 
 			// Probability of rain-drop, should yield < 50/INTERVAL drops per sec
 			
+
 			if (Math.random() < 1.0/INTERVAL) {
 				lastX = (int) (Math.random() * WIDTH);
 				lastY = (int) (Math.random() * HEIGHT);
